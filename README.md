@@ -12,7 +12,11 @@ git clone git@github.com:kamijean/pancake_revenge.git
 ### Prerequisites
 
 #### Javascript
-You will need Node installed
+You will need Node installed and yarn or npm
+```
+cd javascript
+yarn install or npm install
+```
 
 #### Go
 You will need Go installed
@@ -23,7 +27,7 @@ You will need Go installed
 
 To file
 ```
-node javascipt/main.js files/file.in > file.out
+node javascript/main.js files/file.in > file.out
 ```
 
 To console
