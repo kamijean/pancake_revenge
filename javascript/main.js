@@ -2,7 +2,10 @@
 'use strict';
 
 var fs = require('fs');
-var data = fs.readFileSync(process.argv[2], 'utf-8').replace(/\r/g, '').split('\n').filter(String);
+var data = {};
+if (typeof process.argv[2] !== 'undefined') {
+  data = fs.readFileSync(process.argv[2], 'utf-8').replace(/\r/g, '').split('\n').filter(String);
+}
 var minAmount = 1;
 var maxAmount = 100;
 
