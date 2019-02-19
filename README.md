@@ -57,6 +57,15 @@ Paste in input ex:
 --+-
 ```
 
+### Running the tests
+
+#### Javascript
+
+```
+yarn test
+```
+
+
 ## Problem
 The Infinite House of Pancakes has just introduced a new kind of pancake! It has a happy face made of
 chocolate chips on one side (the "happy side"), and nothing on the other side (the "blank side").
