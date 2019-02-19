@@ -27,12 +27,12 @@ You will need Go installed
 
 To file
 ```
-node javascript/main.js files/file.in > file.out
+node javascript/main.js files/small.in > files/small.out
 ```
 
 To console
 ```
-node javascipt/main.js files/file.in
+node javascipt/main.js files/small.in
 ```
 
 
