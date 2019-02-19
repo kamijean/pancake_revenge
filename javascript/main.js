@@ -40,3 +40,9 @@ function main(data, minAmount, maxAmount) {
 }
 
 main(data, minAmount, maxAmount);
+
+module.exports = {
+	validLength,
+	validCharacter,
+	flipCount
+}
